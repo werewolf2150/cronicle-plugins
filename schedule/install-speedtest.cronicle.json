@@ -1,4 +1,5 @@
 {
+  "id": "speedtest-install",
   "title": "PLUGIN ADD - Speedtest",
   "category": "Maintenance",
   "enabled": true,

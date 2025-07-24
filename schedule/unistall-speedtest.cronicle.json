@@ -1,0 +1,18 @@
+{
+  "id": "speedtest-uninstall",
+  "title": "PLUGIN REMOVE - Speedtest",
+  "category": "Maintenance",
+  "plugin": "",
+  "command": "bash /opt/cronicle/plugins/speedtest/uninstall_speedtest.sh",
+  "enabled": true,
+  "schedule": "manual",
+  "timezone": "UTC",
+  "targets": ["main"],
+  "logs": true,
+  "capture_output": true,
+  "max_children": 1,
+  "timeout": 60,
+  "cpu_limit": 0,
+  "memory_limit": 0,
+  "retries": 0
+}
