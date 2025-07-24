@@ -1,0 +1,17 @@
+{
+  "title": "PLUGIN ADD - Speedtest",
+  "category": "Maintenance",
+  "enabled": true,
+  "command": "bash /opt/cronicle/plugins/cronicle/install_speedtest.sh",
+  "plugin": "",
+  "params": {},
+  "timeout": 180,
+  "multi": false,
+  "cpu": 1,
+  "memory": 64,
+  "retries": 0,
+  "priority": 10,
+  "allow_override": true,
+  "log_max": 1000,
+  "notes": "🇫🇷 Installe automatiquement le plugin Speedtest depuis GitHub, avec tous les fichiers Python nécessaires et les correctifs de compatibilité Python 3. 🇬🇧 Automatically installs the Speedtest plugin from GitHub with all required Python files and Python 3 compatibility patches."
+}

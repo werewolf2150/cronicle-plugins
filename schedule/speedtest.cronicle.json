@@ -1,0 +1,22 @@
+{
+  "title": "PLUGIN - Speedtest Cronicle",
+  "plugin": "",
+  "category": "Network",
+  "enabled": true,
+  "params": {
+    "speedtest": "/usr/bin/speedtest",
+    "download": true,
+    "upload": true
+  },
+  "command": "/usr/bin/python3 /opt/cronicle/plugins/speedtest.py",
+  "timeout": 300,
+  "multi": false,
+  "cpu": 1,
+  "memory": 64,
+  "retries": 0,
+  "priority": 5,
+  "allow_override": true,
+  "log_max": 1000,
+  "storage": "",
+  "notes": "🇫🇷 Exécute un test de performance réseau en Gbps à l'aide du plugin Speedtest Python 3 (upload / download). 🇬🇧 Runs a Gbps network performance test using the Python 3 Speedtest plugin (upload / download)."
+}
